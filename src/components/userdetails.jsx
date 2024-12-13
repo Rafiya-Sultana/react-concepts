@@ -89,7 +89,7 @@ class UserDetailsApp extends React.Component {
         ) : (
           <TableContainer component={Paper} sx={{bgcolor:'#fafafa'}}>
             <Table>
-              <TableHead sx={{bgcolor:'#e0e0e0', fontWeight: 'bold'}}>
+              <TableHead sx={{bgcolor:'#e0e0e0'}}>
                 <TableRow >
                   <TableCell sx={{fontWeight: 'bold'}}>ID</TableCell>
                   <TableCell sx={{fontWeight: 'bold'}}>Name</TableCell>

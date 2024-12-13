@@ -5,6 +5,7 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 import UserPage from './pages/UserPage';
+import RecipePage from './pages/RecipePage';
 import './App.css'
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <>
         
         <Route path='/user-details' element={<UserPage/>}/>
+        <Route path='/recipe-details' element={<RecipePage/>}/>
       
         </>
     )
